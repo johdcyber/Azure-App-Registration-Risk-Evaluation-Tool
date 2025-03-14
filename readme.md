@@ -1,3 +1,5 @@
+#Azure App Registration Risk Evaluation Tool
+---
 This tool scans **Azure Active Directory** for all tenant-wide app registrations, evaluates their permissions, and generates a **risk report** in CSV, JSON, and interactive HTML formats. It also provides details on **certificate and secret** status, creation dates, and other key security indicators. The report can help you quickly identify risky apps or those that need certificate/secret updates.
 
 ---
