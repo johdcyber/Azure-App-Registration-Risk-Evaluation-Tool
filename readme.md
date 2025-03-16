@@ -4,7 +4,28 @@ This tool scans **Azure Active Directory** for all tenant-wide app registrations
 
 *Written by JohnDcyber*  
 Website: [johndcyber.com](https://johndcyber.com)
+---
 
+## Value Proposition
+
+1. **Security Visibility**
+   - Quickly identifies high-risk permissions (e.g., `Application.ReadWrite.All`, `Directory.ReadWrite.All`).
+   - Highlights expired or soon-to-expire certificates and secrets.
+
+2. **Proactive Remediation**
+   - Surfaces critical or expiring credentials, allowing teams to update them before they cause production issues or security breaches.
+   - Pinpoints apps that haven’t been updated in a long time or that have overly broad permissions.
+
+3. **Comprehensive Coverage**
+   - Scans all app registrations, merging multiple sources of permission data and checking credential statuses.
+   - Provides a consolidated view for security and IAM teams to act upon.
+
+4. **Actionable Reports**
+   - Offers machine-readable CSV and JSON outputs for automated processes.
+   - Delivers an interactive HTML report with search, filter, and sorting capabilities.
+   - Includes a risk distribution chart for quick, at-a-glance insights into overall risk posture.
+
+Using this tool, Azure AD administrators and security teams can **improve compliance, reduce exposure**, and maintain better oversight of all registered apps, their permissions, and credential hygiene.
 ---
 
 ## Table of Contents
@@ -155,28 +176,7 @@ Website: [johndcyber.com](https://johndcyber.com)
    - Creates a risk distribution bar chart with `matplotlib` and embeds it in the HTML report.
    - Uses DataTables to enable an interactive table experience in the HTML report.
 
----
 
-## Value Proposition
-
-1. **Security Visibility**
-   - Quickly identifies high-risk permissions (e.g., `Application.ReadWrite.All`, `Directory.ReadWrite.All`).
-   - Highlights expired or soon-to-expire certificates and secrets.
-
-2. **Proactive Remediation**
-   - Surfaces critical or expiring credentials, allowing teams to update them before they cause production issues or security breaches.
-   - Pinpoints apps that haven’t been updated in a long time or that have overly broad permissions.
-
-3. **Comprehensive Coverage**
-   - Scans all app registrations, merging multiple sources of permission data and checking credential statuses.
-   - Provides a consolidated view for security and IAM teams to act upon.
-
-4. **Actionable Reports**
-   - Offers machine-readable CSV and JSON outputs for automated processes.
-   - Delivers an interactive HTML report with search, filter, and sorting capabilities.
-   - Includes a risk distribution chart for quick, at-a-glance insights into overall risk posture.
-
-Using this tool, Azure AD administrators and security teams can **improve compliance, reduce exposure**, and maintain better oversight of all registered apps, their permissions, and credential hygiene.
 
 ---
 
