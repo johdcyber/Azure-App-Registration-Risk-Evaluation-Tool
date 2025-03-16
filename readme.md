@@ -4,6 +4,7 @@ This tool scans **Azure Active Directory** for all tenant-wide app registrations
 
 *Written by JohnDcyber*  
 Website: [johndcyber.com](https://johndcyber.com)
+
 ---
 
 ## Value Proposition
@@ -26,6 +27,8 @@ Website: [johndcyber.com](https://johndcyber.com)
    - Includes a risk distribution chart for quick, at-a-glance insights into overall risk posture.
 
 Using this tool, Azure AD administrators and security teams can **improve compliance, reduce exposure**, and maintain better oversight of all registered apps, their permissions, and credential hygiene.
+
+
 ---
 
 ## Table of Contents
